@@ -1,0 +1,16 @@
+server:
+    serverName : "project-user"
+    address : ":80"
+
+redis:
+    address : "192.168.168.129:8090"
+    password : ""
+    db : 0
+
+logs:
+    DebugFileName: "D:\\goWorks\\src\\ms_project\\logs\\debug\\project-debug.logs"
+    InfoFileName:  "D:\\goWorks\\src\\ms_project\\logs\\info\\project-info.logs"
+    WarnFileName:   "D:\\goWorks\\src\\ms_project\\logs\\error\\project-error.logs"
+    MaxSize:        500
+    MaxAge:         28
+    MaxBackups:     3
